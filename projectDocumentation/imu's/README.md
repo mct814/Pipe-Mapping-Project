@@ -21,7 +21,8 @@ The IMUs were chosen and verified to work based on these considerations
 * Worst Case Sampling Scenario (encountering short radius 90° angles at maximum traversal speed)
    * All 90° elbows referred to in the subsequent calculations are the SR (short radius) variety, as this will result in a shorter elbow arclength as opposed to LR (long radius) elbows. Note that LR elbows are the standard variety of pipe elbow, but in this interest of calculating a worst case sampling scenario, short radius elbows will be used in these calculations. 
    * The interior diameter of the pipe network is equal to 1" 
-   * The probe will be pulled though the network at the maximum rate of 1 foot per second 
+   * The probe will be pulled though the network at the maximum rate of 1 foot per second
+   * The calculations for this scenario are attached at the bottom of the README
     
 ## Sampling Calculations
 ![Sampling Calculations](samplingCalculations.png)
