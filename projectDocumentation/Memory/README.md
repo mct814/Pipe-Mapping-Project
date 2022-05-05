@@ -1,7 +1,7 @@
 # Memory Subsystem
 
 ## Memory Schematic
-![Memory Schematic](Memory close up.png)
+![Memory Schematic](Memorycloseupschematic.png)
 
 ## Memory chip
 #### Component
