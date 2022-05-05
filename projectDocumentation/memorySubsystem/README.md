@@ -17,7 +17,7 @@ AT25SL128A-MHE-T
 #### Analysis
 The device was chosen and verified to work based on these standards
 * 133 MHz clock speed
-    * This clock speed will be able to keep up with the microcontroller.
+    * This clock speed will be able to keep up with the microcontroller, as the speed I found when reading the microcontroller communication was aproximately 100 MHz.
 * Capable of SPI communication
     * Memory needs SPI to communicate with the microcontroller, and this chip has standard, dual, and quad SPI operations.
 * 128 Mb of FLASH memory
