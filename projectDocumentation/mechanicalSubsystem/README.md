@@ -45,6 +45,9 @@ velocity and then angular velocity into RPM based on our spool radius of 1.5 in.
 motor needs to reach at least 76.39 RPM. Therefore I have chosen a motor that can reach 170 RPM which is 
 over twice the calculated speed needed for the probe to travel at the required velocity.
 
+* [TorqueCalculations](TorqCalc.png)
+* [RPMCalculations](RPMCalc.png)
+
 ## Motor Mount
 #### Component
 Custom Motor Mount
