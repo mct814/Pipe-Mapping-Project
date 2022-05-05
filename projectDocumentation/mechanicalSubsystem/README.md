@@ -1,7 +1,7 @@
 # Mechanical Subsystem
 
 ## Mechanical Schematic
-![Mechanical Schematic](MechanicalSchematic.png)
+![Mechanical Schematic](MechanicalSchematic.PNG)
 
 ## Overall Design
 The entire system is modeled below including the motor, motor bracket (3D printed),
