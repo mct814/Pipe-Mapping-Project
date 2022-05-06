@@ -49,5 +49,6 @@ I am a computer engineering senior at Tennessee Technological University.
 
 
 ####Caleb Thorne
+I am an electrical engineering senior at Tennessee Technological University. I am originally from Pulaski, TN and graduated from Giles County High School.
 
 ####Elizabeth Russell
