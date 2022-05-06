@@ -38,8 +38,11 @@ while harmlessly traversing the pipe. The team’s objective is to create a prob
 [Mechanical README](projectDocumentation/mechanicalSubsystem/README.md)
 
 ##About Us
+
 ###Developers
+
 ####Adison Heathcott
+I am a computer engineering senior at Tennessee Technological University.
 
 ####Ben Ask
 *I am a computer engineering senior at Tennessee Technological University. I am originally from Greensboro, NC and graduated from Ravenwood High School.
