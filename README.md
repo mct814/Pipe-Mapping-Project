@@ -13,18 +13,7 @@ while harmlessly traversing the pipe. The team’s objective is to create a prob
 
 
 ## Current Version Capabilities
-
-
-
-
-
-
-
-
-
-
-
-
+The current version of our design is non-functional but is well on its way to becoming functional.
 
 
 ## Subsystem README Files
@@ -53,3 +42,14 @@ I am an electrical engineering senior at Tennessee Technological University. I a
 
 #### Elizabeth Russell
 I am an electrical engineering senior at Tennessee Technological University. I am originally from Tullahoma, TN and graduated from Family Christian Academy.
+
+### Faculty Supervisor
+
+#### Jesse Roberts
+
+### Customer
+
+#### Pipe locating services
+
+## Description of Repository
+The main file of the repository contains the lisence, readme, planned software file, reports folder, and project documentation folder. Inside of the reports folder are the original project proposal and the design phase 1 document. Inside the project documentation folder is the bill of materials, project schematic and the folders for each of the subsystems that have been designed. Each of the subsystem folders contains schematics and readme descriptions of the design process.
