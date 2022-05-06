@@ -52,4 +52,4 @@ I am a computer engineering senior at Tennessee Technological University. I am o
 I am an electrical engineering senior at Tennessee Technological University. I am originally from Pulaski, TN and graduated from Giles County High School.
 
 #### Elizabeth Russell
-I am a electrical engineering senior at Tennessee Technological University. I am originally from Tullahoma, TN and graduated from Family Christian Academy.
+I am an electrical engineering senior at Tennessee Technological University. I am originally from Tullahoma, TN and graduated from Family Christian Academy.
