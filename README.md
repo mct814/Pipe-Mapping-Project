@@ -45,10 +45,11 @@ while harmlessly traversing the pipe. The team’s objective is to create a prob
 I am a computer engineering senior at Tennessee Technological University. I am originally from Knoxville, TN and graduated from Bearden High School.
 
 #### Ben Ask
-*I am a computer engineering senior at Tennessee Technological University. I am originally from Greensboro, NC and graduated from Ravenwood High School.
+I am a computer engineering senior at Tennessee Technological University. I am originally from Greensboro, NC and graduated from Ravenwood High School.
 
 
 #### Caleb Thorne
 I am an electrical engineering senior at Tennessee Technological University. I am originally from Pulaski, TN and graduated from Giles County High School.
 
 #### Elizabeth Russell
+I am a electrical engineering senior at Tennessee Technological University. I am originally from Tullahoma, TN and graduated from Family Christian Academy.
