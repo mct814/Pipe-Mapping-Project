@@ -42,7 +42,7 @@ while harmlessly traversing the pipe. The team’s objective is to create a prob
 ### Developers
 
 #### Adison Heathcott
-I am a computer engineering senior at Tennessee Technological University.
+I am a computer engineering senior at Tennessee Technological University. I am originally from Knoxville, TN and graduated from Bearden High School.
 
 #### Ben Ask
 *I am a computer engineering senior at Tennessee Technological University. I am originally from Greensboro, NC and graduated from Ravenwood High School.
