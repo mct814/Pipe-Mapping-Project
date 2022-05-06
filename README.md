@@ -37,18 +37,18 @@ while harmlessly traversing the pipe. The team’s objective is to create a prob
 
 [Mechanical README](projectDocumentation/mechanicalSubsystem/README.md)
 
-##About Us
+## About Us
 
-###Developers
+### Developers
 
-####Adison Heathcott
+#### Adison Heathcott
 I am a computer engineering senior at Tennessee Technological University.
 
-####Ben Ask
+#### Ben Ask
 *I am a computer engineering senior at Tennessee Technological University. I am originally from Greensboro, NC and graduated from Ravenwood High School.
 
 
-####Caleb Thorne
+#### Caleb Thorne
 I am an electrical engineering senior at Tennessee Technological University. I am originally from Pulaski, TN and graduated from Giles County High School.
 
-####Elizabeth Russell
+#### Elizabeth Russell
