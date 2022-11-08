@@ -14,18 +14,19 @@ One problem that we encountered with this system is that while the battery shell
 ## Experiment 2
 Our second experiment was designed to test the accuracy of the probe along with the battery life and memory size. Our three constraints being tested here are that the memory can hold up to 20 minutes of data, our battery lasts at least 20 minutes or 1200 sec, and our probe maps the path of the pipe within a 1" radius of the actual pipe's edge. We found that with our first iteration of the probe we could not get it to fit inside the 2" pipe (discussed further in the analysis & recommended improvements seciton below) so we decided to run the probe along the edge of the pipe and measure the accuracy of the probe against the real life position of the top edge of the pipe network. We then allow the probe to run for at least 20 minutes and record whether or not the memory overflowed and whether or not the battery died. The results of our experimentation are recorded below.
 
-| Network Number & Run Number   | Time (sec)  | Probe %Error  | Memory Overflow (yes or no)  | Battery Dead (yes or no)  |
+| Network Number & Run Number   | Time (sec)  | Probe Error (m)  | Memory Overflow (yes or no)  | Battery Dead (yes or no)  |
 | ------------ | ------------ | ------------ | ------------ | ------------ |
-| 1-1  | 1200  |  0 | No  | No  |
-| 1-2  |  1200 |  0 | No  | No  |
-| 1-3  |  1200|  0 | No  | No  |
-| 2-1  |   1200|  0 | No  | No  |
-| 2-2  |   1200|  0 | No  | No  |
-| 2-3  |   1200|  0 | No  | No  |
-| 3-1  |   1200|  0 | No  | No  |
-| 3-2  |   1200|  0 | No  |  No |
-| 3-3  |   1200|  0 |  No |  No |
+| 1-1  | 1200  |  0.482 | No  | No  |
+| 1-2  |  1200 |  0.846 | No  | No  |
+| 1-3  |  1200|  0.763 | No  | No  |
+| 2-1  |   1200|  0.117 | No  | No  |
+| 2-2  |   1200|  0.296 | No  | No  |
+| 2-3  |   1200|  0.956 | No  | No  |
+| 3-1  |   1200|  0.600 | No  | No  |
+| 3-2  |   1200|  0.219 | No  |  No |
+| 3-3  |   1200|  0.301 |  No |  No |
 
 ### Analysis & Recommended Improvements
+Since the error ranges from 4.6" to 37.6" it does not meet our 1" goal for the error range, ways to mitigate this would be to have a second IMU to prevent incorrect data from being used, have the probe be tested using a machine so that the tests are repeatable to check for inconsistencies easier, or to run the IMU data through a filter before calculating the error.
 
 
