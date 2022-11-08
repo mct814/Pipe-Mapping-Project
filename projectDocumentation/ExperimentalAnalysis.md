@@ -43,3 +43,7 @@ The third experiment was to test that the mapping software would produce an imag
 | 3-2  |   26|  10 | 26  |
 | 3-3  |   26|  12 |  26 |
 
+![image](https://user-images.githubusercontent.com/104523603/200466317-aab59af5-2076-44bc-9e38-b173aed3919f.png)
+
+### Analysis & Recommended Improvements
+Two major ways to mitigate the majority of the error would be two IMUs being utilized to negate some of the data error and the probe fitting in the pipe so it could be  pulled by the mechanical system so the data would be able to be recreated with much more accuracy than hand guiding the probe, a minor addition that we will attemp to add in the future is a filter for the IMU data this would help lessen errors in the plots. The two major issues would be solved by the updated probe design.
