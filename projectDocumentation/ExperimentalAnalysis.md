@@ -30,3 +30,19 @@ Our second experiment was designed to test the accuracy of the probe. The constr
 
 ### Analysis & Recommended Improvements
 Since the error ranges from 4.6" to 37.6" it does not meet our 1" goal for the error range, ways to mitigate this would be to have a second IMU to prevent incorrect data from being used, have the probe be tested using a machine so that the tests are repeatable so we could check for inconsistencies easier, or to run the IMU data through a filter before calculating the error. The IMU and machine fixes will be able it be used with the updated probe designe
+
+## Experiment 3
+The third experiment was designed to test the capabilities of the memory subsystem. We used this experiment to validate that the memory would be able to hold up to 5000 feet or 20 minutes worth of data, and to keep the data when the device was powered off and on. The experiment consisted of running the device for various time lengths, measuring the amount of data that was stored in the memory, verifying that the memory had not overflowed, and verifying that the data was still intact and unmodified.
+
+We were able to use the timestamp provided by the IMU to measure the exact amount of time data was measured. The IMU was running at 26 Hz and polled both the accelerometer, gyroscope, and timestamp. Each data entry consisted of 7 bytes, 1 tag byte and 6 data bytes. Since the data rate and size were constant the data looks exactly as predicted.
+
+| Run Time | Bytes Stored | Bytes Retrieved | Calculated Bytes Remaining In Memory |
+| --------- | ------------ | --------------- | ------------------------- |
+| 1 minute  | 32,760 bytes | 32,760 bytes    | 16,744,456 bytes          |
+| 5 minutes | 163,800 bytes| 163,800 bytes   | 16,613,416 bytes          |
+| 10 minutes| 327,600 bytes| 327,600 bytes   | 16,449,616 bytes          |
+| 15 minutes| 491,400 bytes| 491,400 bytes   | 16,285,816 bytes          |
+| 20 minutes| 655,200 bytes| 655,200 bytes   | 16,122,016 bytes          |
+
+### Analysis & Recommended Improvements
+The memory subsystem was well able to hold the necessary data needed for the IMU outputs. Recommended improvements are purely to increase the performance of the system and convenience of the programmer. The only improvement that the team could find was to change the memory to be able to be written to without being erased. The current memory has to be erased everytime you want to change the data in a byte so this caused a bit of a performance hit on the system. It was not enough to change the data but if we sampled at a higher frequency, it would have caused a problem.
