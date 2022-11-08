@@ -33,13 +33,13 @@ Since the error ranges from 4.6" to 37.6" it does not meet our 1" goal for the e
 The third experiment was to test that the mapping software would produce an image of the pipe system, the data used to test this was gained during experiment 2 testing. The plots did show the error reported in experiment 2 but followed the general directions that the probe was guided through, the following plots were gained by changing the values in the software where the values are shown in the table below.
 | Network Number & Run Number   | Sample Rate (Hz) | Threshold  | FPS (frames per second)  |
 | ------------ | ------------ | ------------ | ------------ |
-| 1-1  | 26  |  0.482 | No  |
-| 1-2  |  26 |  0.846 | No  |
-| 1-3  |  26|  0.763 | No  |
-| 2-1  |   26|  0.117 | No  |
-| 2-2  |   1200|  0.296 | No  |
-| 2-3  |   1200|  0.956 | No  |
-| 3-1  |   1200|  0.600 | No  |
-| 3-2  |   1200|  0.219 | No  |
-| 3-3  |   1200|  0.301 |  No |
+| 1-1  | 26  |  0.7 | 26  |
+| 1-2  |  26 |  3.25 | 26  |
+| 1-3  |  26|  3.5 | 26  |
+| 2-1  |   26|  10 | 26  |
+| 2-2  |   26|  10 | 26  |
+| 2-3  |   26|  7.6 | 26  |
+| 3-1  |   26|  7.5 | 26  |
+| 3-2  |   26|  10 | 26  |
+| 3-3  |   26|  12 |  26 |
 
