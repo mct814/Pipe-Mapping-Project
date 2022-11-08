@@ -12,19 +12,20 @@ The first experimentation we did was on the mechanical subsystem whcih includes 
 One problem that we encountered with this system is that while the battery shell easily traversed the network the PCB shell often got stuck in the 2" 90 degree elbows due to a small lip that was not forseen in our initial design. Our next step is to redesign the PCB shell to have a more gradual edge rather than being very nearly a perfect cylinder. It is likely that both the battery shell and PCB shell would fit in a larger system but our cost for testing would have had to be much higher to confirm that theory. The good news is that the speed of this system is well above the minimum requirement of 1 ft/sec which means that this specification was well met.
 
 ## Experiment 2
-Our second experiment was designed to test the accuracy of the probe along with the battery life and memory size. Our four constraints being tested here are that the memory can hold up to 20 minutes of data, our battery lasts at least 20 minutes or 1200 sec, our probe maps the path of the pipe within a 1" radius of the actual pipe's edge, and our mappping software produces a plot of the pipe path using the gathered data. We found that with our first iteration of the probe we could not get it to fit inside the 2" pipe (discussed further in the analysis & recommended improvements seciton below) so we decided to run the probe along the edge of the pipe and measure the accuracy of the probe against the real life position of the top edge of the pipe network. We then allow the probe to run for at least 20 minutes and record whether or not the memory overflowed and whether or not the battery died. The mapping software had to be adjusted with each new run, as we were feeding raw data to the software, so the threshold,sample rate and FPS had to be recorded each run. The results of our experimentation are recorded below.
+Our second experiment was designed to test the accuracy of the probe. The constraint we are measuring is whether or not our probe maps the path of the pipe within a 1" radius of the actual pipe's edge, and our mappping software produces a plot of the pipe path using the gathered data. We found that with our first iteration of the probe we could not get it to fit inside the 2" pipe (discussed further in the analysis & recommended improvements seciton below) so we decided to run the probe along the edge of the pipe and measure the accuracy of the probe against the real life position of the top edge of the pipe network.  The mapping software had to be adjusted with each new run, as we were feeding raw data to the software, so the threshold,sample rate and FPS had to be recorded each run. The results of our experimentation are recorded below.
 
-| Network Number & Run Number   | Time (sec)  | Probe Error (in)  | Memory Overflow (yes or no)  | Battery Dead (yes or no)  | Sample Rate (Hz) | Threshold  | FPS (frames per second)  |
-| ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
-| 1-1  | 1200  |  18.976 | No  | No  | 26  |  0.7 | 26  |
-| 1-2  |  1200 |  33.307 | No  | No  | 26 |  3.25 | 26  |
-| 1-3  |  1200|  30.039 | No  | No  | 26 |  3.5 | 26  |
-| 2-1  |   1200|  4.606 | No  | No  | 26 |  10 | 26  |
-| 2-2  |   1200|  11.654 | No  | No  | 26 |  10 | 26  |
-| 2-3  |   1200|  37.638 | No  | No  | 26 |  7.6 | 26  |
-| 3-1  |   1200|  23.622 | No  | No  | 26 |  7.5 | 26  |
-| 3-2  |   1200|  8.622 | No  |  No | 26 |  10 | 26  |
-| 3-3  |   1200|  11.85 |  No |  No | 26 |  12 |  26 |
+| Network Number & Run Number  | Probe Error (in)  | Sample Rate (Hz) | Threshold  | FPS (frames per second)  |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
+| 1-1  | 18.976 | 26  |  0.7 | 26  |
+| 1-2  |  33.307 | 26 |  3.25 | 26  |
+| 1-3  | 30.039 |26 |  3.5 | 26  |
+| 2-1  |    4.606 | 26 |  10 | 26  |
+| 2-2  | 11.654 | 26 |  10 | 26  |
+| 2-3  |  37.638 | 26 |  7.6 | 26  |
+| 3-1  |  23.622 | 26 |  7.5 | 26  |
+| 3-2  |  8.622 |26 |  10 | 26  |
+| 3-3  |  11.85 | 26 |  12 |  26 |
+
 ![image](https://user-images.githubusercontent.com/104523603/200466317-aab59af5-2076-44bc-9e38-b173aed3919f.png)
 
 ### Analysis & Recommended Improvements
