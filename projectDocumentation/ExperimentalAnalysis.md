@@ -27,6 +27,19 @@ Our second experiment was designed to test the accuracy of the probe along with 
 | 3-3  |   1200|  0.301 |  No |  No |
 
 ### Analysis & Recommended Improvements
-Since the error ranges from 4.6" to 37.6" it does not meet our 1" goal for the error range, ways to mitigate this would be to have a second IMU to prevent incorrect data from being used, have the probe be tested using a machine so that the tests are repeatable to check for inconsistencies easier, or to run the IMU data through a filter before calculating the error.
+Since the error ranges from 4.6" to 37.6" it does not meet our 1" goal for the error range, ways to mitigate this would be to have a second IMU to prevent incorrect data from being used, have the probe be tested using a machine so that the tests are repeatable so we could check for inconsistencies easier, or to run the IMU data through a filter before calculating the error.
 
+## Experiment 3
+The third experiment was to test that the mapping software would produce an image of the pipe system, the data used to test this was gained during experiment 2 testing. The plots did show the error reported in experiment 2 but followed the general directions that the probe was guided through, the following plots were gained by changing the values in the software where the values are shown in the table below.
+| Network Number & Run Number   | Sample Rate (Hz) | Threshold  | FPS (frames per second)  |
+| ------------ | ------------ | ------------ | ------------ |
+| 1-1  | 26  |  0.482 | No  |
+| 1-2  |  26 |  0.846 | No  |
+| 1-3  |  26|  0.763 | No  |
+| 2-1  |   26|  0.117 | No  |
+| 2-2  |   1200|  0.296 | No  |
+| 2-3  |   1200|  0.956 | No  |
+| 3-1  |   1200|  0.600 | No  |
+| 3-2  |   1200|  0.219 | No  |
+| 3-3  |   1200|  0.301 |  No |
 
