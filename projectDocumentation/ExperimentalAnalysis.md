@@ -59,7 +59,10 @@ We were able to use the timestamp provided by the IMU to measure the exact amoun
 | 15 minutes| 491,400 bytes| 491,400 bytes   | 16,285,816 bytes          |
 | 20 minutes| 655,200 bytes| 655,200 bytes   | 16,122,016 bytes          |
 
-### Experiment 4
+### Analysis & Recommended Improvements
+The memory subsystem was well able to hold the necessary data needed for the IMU outputs. Recommended improvements are purely to increase the performance of the system and convenience of the programmer. The only improvement that the team could find was to change the memory to be able to be written to without being erased. The current memory has to be erased everytime you want to change the data in a byte so this caused a bit of a performance hit on the system. It was not enough to change the data but if we sampled at a higher frequency, it would have caused a problem.
+
+## Experiment 4
 The fourth experiment focused on verifying that the device's battery life was within the specification defined within previous documents. This specification stated that the batteries must last long enough for the probe to collect 20 minutes worth of data at minimum. 
 
 The first part of this experiment involved measuring the load current while the device was polling, and powered only by the series AA battery source. The load current stayed consistently around 15 mA while polling data, momentarily increasing to a maximum of roughly 18 mA every few seconds as the data was erased. This load current measurement is very close to the analytical estimates performed for device load current in the Power Subsystem Signoff, which estimated the maximum load current at around 17.76 mA when erasing. Though the load current alone indicated that the device should have far more than enough battery life for 20 minutes of runtime (as observed by the manufacturer battery discharge curve, and cacluations performed in the Power Subsystem Signoff), we still wanted to physically test that the device would run for the 20 minutes required. 
