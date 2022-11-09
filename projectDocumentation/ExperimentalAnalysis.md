@@ -2,10 +2,15 @@
 ## Experiment 1
 The first experimentation we did was on the mechanical subsystem which includes the motors, pipe network, and spool with fishline. The completed experiment consisted of a "dummy" battery holder shell being pulled through the 24 foot long 2 inch diameter PVC network. While the probe was being pulled through we kept a running graph of the instantaneous motor velocity and found the largest difference between the desired velocity and the actual velocity of the motor (data shown below). Screenshots of the graphs have been provided below to show how the data was collected.
 ### Motor Velocity Graph
+#### Run 1 Mid Pipe Snapshot
 ![image](https://user-images.githubusercontent.com/98492692/200714323-cbae1e80-a144-40de-bcc0-05878fe92b5b.png)
+#### Run 2 Beginning Pipe Snapshot
 ![image](https://user-images.githubusercontent.com/98492692/200714350-74e294f6-bdb9-4d15-babd-2caa8f8abbd8.png)
+#### Run 3 Beginning Pipe Snapshot
 ![image](https://user-images.githubusercontent.com/98492692/200714374-4acea2de-a01f-472b-9856-255e4e054c1a.png)
+#### Run 4 End Pipe Snapshot
 ![image](https://user-images.githubusercontent.com/98492692/200714387-a29ba037-67be-4aa1-b0d1-c20adc2db73c.png)
+#### Run 5 End Pipe Snapshot
 ![image](https://user-images.githubusercontent.com/98492692/200714410-2de6ea51-0291-4e3f-9440-01be22819f8f.png)
 
 
