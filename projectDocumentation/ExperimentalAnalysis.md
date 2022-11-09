@@ -1,15 +1,20 @@
 # 3D Pipe Mapping Probe: Experimental Analysis
 ## Experiment 1
-The first experimentation we did was on the mechanical subsystem whcih includes the motors, pipe network, and spool with fishline. The completed experiment consisted of a "dummy" battery holder shell being pulled through the 24 foot long 2 inch diameter PVC network. We then measured how fast the probe was pulled through the PVC network and with that calculated the average speed of the probe (data shown below).
-### Speed Of Probe
-| Distance (ft) | Time (sec) | Speed (ft/sec) |
-| ---------------- | ------------- | ------------------- |
-| 24  | 14.06  | 1.714 |
-| 24  | 13.89  | 1.727 |
-| 24  | 13.86 | 1.731  |
+The first experimentation we did was on the mechanical subsystem which includes the motors, pipe network, and spool with fishline. The completed experiment consisted of a "dummy" battery holder shell being pulled through the 24 foot long 2 inch diameter PVC network. While the probe was being pulled through we kept a running graph of the instantaneous motor velocity and found the largest difference between the desired velocity and the actual velocity of the motor (data shown below). Screenshots of the graphs have been provided below to show how the data was collected.
+### Motor Velocity Graph
+run1graph.png
+
+### Motor Velocity Deviation Table
+| Run Number |Set Velocity (ft/sec) | Maximum Velocity Deviation (ft/sec) |
+| ---------------- | ------------- |-----------|
+| 1  | 1.39  | 0.016 |
+| 2  | 1.36  | 0.060 |
+| 3  | 1.34  | 0.038 |
+| 4  | 1.41  | 0.019 |
+| 5  | 1.27  | 0.052  |
 
 ### Analysis & Recommended Improvements
-One problem that we encountered with this system is that while the battery shell easily traversed the network the PCB shell often got stuck in the 2" 90 degree elbows due to a small lip that was not forseen in our initial design. Our next step is to redesign the PCB shell to have a more gradual edge rather than being very nearly a perfect cylinder. It is likely that both the battery shell and PCB shell would fit in a larger system but our cost for testing would have had to be much higher to confirm that theory. The good news is that the speed of this system is well above the minimum requirement of 1 ft/sec which means that this specification was well met.
+One problem that we encountered with this system is that while the battery shell easily traversed the network the PCB shell often got stuck in the 2" 90 degree elbows due to a small lip that was not forseen in our initial design. Our next step is to redesign the PCB shell to have a more gradual edge rather than being very nearly a perfect cylinder. It is likely that both the battery shell and PCB shell would fit in a larger system but our cost for testing would have had to be much higher to confirm that theory. What this experiment verified was that our mechanical subsystem pulls at or above our minimum velocity (1 ft/sec) and pulls consistently with very little deviation so as to minimize the error during data collection. While we did not have a specific number constraining our velo
 
 ## Experiment 2
 Our second experiment was designed to test the accuracy of the probe. The constraint we are measuring is whether or not our probe maps the path of the pipe within a 1" radius of the actual pipe's edge, and our mappping software produces a plot of the pipe path using the gathered data. We found that with our first iteration of the probe we could not get it to fit inside the 2" pipe (discussed further in the analysis & recommended improvements seciton below) so we decided to run the probe along the edge of the pipe and measure the accuracy of the probe against the real life position of the top edge of the pipe network.  The mapping software had to be adjusted with each new run, as we were feeding raw data to the software, so the threshold, sample rate and FPS had to be recorded each run. The resulting error from each run was calculated in the mapping software by using the current position vs. the original position to continually calculate the error throughout mapping, and since the plot is made using dead reckoning there will be a small bit of error with only IMU data. The results of our experimentation are recorded below.
