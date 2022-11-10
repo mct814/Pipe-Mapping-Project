@@ -52,9 +52,8 @@ Our second experiment was designed to test the accuracy of the probe and to see 
 
 
 ![image](https://user-images.githubusercontent.com/104523603/200982051-b92cbcc4-16ce-4687-b461-a7d30f94b8a3.png)
-
-
-
+![image](https://user-images.githubusercontent.com/104523603/200993233-3b647f7d-a788-49e7-82bb-e614677169ce.png)
+![image](https://user-images.githubusercontent.com/104523603/200993395-b38f6043-0755-43f0-99af-31c03d5f6f59.png)
 
 ### Analysis & Recommended Improvements
 Since the error ranges from 583%-78% it does not meet our 1" goal for the error range, ways to mitigate this would be to have a second IMU to prevent incorrect data from being used, have the probe be tested using a machine so that the tests are repeatable so we could check for inconsistencies easier, run the IMU data through a filter before calculating the error, and having a setup where the gyro won't accendentally turn where it changes how the plot forms. and corresponding to the fact that there will always be some error with just an IMU, this could be mitigated in the future by connecting a GPS or other secondary sensor or unit, as with IMUs it is difficult to measure a decline/incline in a path. The IMU and machine fixes will be able to be used with the updated probe design
