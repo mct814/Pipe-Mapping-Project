@@ -29,30 +29,35 @@ One problem that we encountered with this system is that while the battery shell
 ## Experiment 2
 Our second experiment was designed to test the accuracy of the probe and to see if the data gained produces a plot. The constraint we are measuring is whether or not our probe maps the path of the pipe within a 1" radius of the actual pipe's edge, and our mapping software produces a plot of the pipe path using the gathered data. We found that with our first iteration of the probe we could not get it to fit inside the 2" pipe (discussed further in the analysis & recommended improvements seciton below) so we decided to run the probe directly over four separate paths mapped out by duct tape, path one is a straight line, path two is a flat right angle with two equal legs, path 3 is a straight flat path that then leads up the wall to produce another right angle, and the fourth path was a straight line where we turned the probe repeatedly. The mapping software had to be adjusted with each new run, as we were feeding raw data to the software, so the threshold, sample rate and FPS had to be recorded each run. The resulting error from each run was calculated in the mapping software by using the current position vs. the original position to continually calculate the error throughout mapping, and since the plot is made using dead reckoning there will be a small bit of error with only IMU data. The results of our experimentation are recorded below.
 
-| Network Number & Run Number  | Probe Error (in)  | Sample Rate (Hz) | Threshold  | FPS (frames per second)  |
+| Network Number & Run Number  | Probe Total Error (%)  | Sample Rate (Hz) | Threshold  | FPS (frames per second)  |
 | ------------ | ------------ | ------------ | ------------ | ------------ |
-| 1-1  | 18.976 | 26  |  0.65 | 26  |
-| 1-2  |  33.307 | 26 |  0.65 | 26  |
-| 1-3  | 30.039 |26 |  0.65 | 26  |
-| 2-1  |    4.606 | 26 |  0.6 | 26  |
-| 2-2  | 11.654 | 26 |  0.6 | 26  |
-| 2-3  |  37.638 | 26 |  0.6 | 26  |
-| 3-1  |  23.622 | 26 |  7 | 26  |
-| 3-2  |  8.622 |26 |  0.6 | 26  |
-| 3-3  |  11.85 | 26 |  13.2 |  26 |
-| 4-1  |  11.85 | 26 |  16 |  26 |
-| 4-2  |  11.85 | 26 |  16 |  26 |
-| 4-3  |  11.85 | 26 |  16 |  26 |
+| 1-1  | 99.35 | 26  |  0.65 | 26  |
+| 1-2  |  98.24 | 26 |  0.65 | 26  |
+| 1-3  | 99.85 |26 |  0.65 | 26  |
+| 2-1  |    97.43 | 26 |  0.6 | 26  |
+| 2-2  | 98.43 | 26 |  0.6 | 26  |
+| 2-3  |  92.378 | 26 |  0.6 | 26  |
+| 3-1  |  79.72 | 26 |  7 | 26  |
+| 3-2  |  78.24 |26 |  0.6 | 26  |
+| 3-3  |  99.54 | 26 |  13.2 |  26 |
+| 4-1  |  531 | 26 |  16 |  26 |
+| 4-2  |  51.5 | 26 |  16 |  26 |
+| 4-3  |  583.07 | 26 |  16 |  26 |
+
+| Network Number & Run Number |Probe Total Error Without Gyro(%) |
+| ---------------- | ------------- |-----------|
+| 1-1  | 34.47  |
+| 1-2  | 44.3  |
+| 1-3  | 1.18  |
+
 
 ![image](https://user-images.githubusercontent.com/104523603/200982051-b92cbcc4-16ce-4687-b461-a7d30f94b8a3.png)
-![image](https://user-images.githubusercontent.com/104523603/200985513-b2fef712-a1eb-45ea-ad4a-e22b2ee8fcf8.png)
-![image](https://user-images.githubusercontent.com/104523603/200982635-14477ab6-9f0b-4cf4-88f5-c317d6b39c9d.png)
 
 
 
 
 ### Analysis & Recommended Improvements
-Since the error ranges from 4.6" to 37.6" it does not meet our 1" goal for the error range, ways to mitigate this would be to have a second IMU to prevent incorrect data from being used, have the probe be tested using a machine so that the tests are repeatable so we could check for inconsistencies easier, or to run the IMU data through a filter before calculating the error. and corresponding to the fact that there will always be some error with just an IMU this could be mitigated in the future by connecting a GPS or other secondary sensor or unit, as with IMUs it is difficult to measure a decline in a path. The IMU and machine fixes will be able it be used with the updated probe design
+Since the error ranges from 583%-78% it does not meet our 1" goal for the error range, ways to mitigate this would be to have a second IMU to prevent incorrect data from being used, have the probe be tested using a machine so that the tests are repeatable so we could check for inconsistencies easier, run the IMU data through a filter before calculating the error, and having a setup where the gyro won't accendentally turn where it changes how the plot forms. and corresponding to the fact that there will always be some error with just an IMU, this could be mitigated in the future by connecting a GPS or other secondary sensor or unit, as with IMUs it is difficult to measure a decline/incline in a path. The IMU and machine fixes will be able to be used with the updated probe design
 
 ## Experiment 3
 The third experiment was designed to test the capabilities of the memory subsystem. We used this experiment to validate that the memory would be able to hold up to 5000 feet or 20 minutes worth of data, and to keep the data when the device was powered off and on. The experiment consisted of running the device for various time lengths, measuring the amount of data that was stored in the memory, verifying that the memory had not overflowed, and verifying that the data was still intact and unmodified.
