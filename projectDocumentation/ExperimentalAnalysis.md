@@ -31,17 +31,25 @@ Our second experiment was designed to test the accuracy of the probe. The constr
 
 | Network Number & Run Number  | Probe Error (in)  | Sample Rate (Hz) | Threshold  | FPS (frames per second)  |
 | ------------ | ------------ | ------------ | ------------ | ------------ |
-| 1-1  | 18.976 | 26  |  0.7 | 26  |
-| 1-2  |  33.307 | 26 |  3.25 | 26  |
-| 1-3  | 30.039 |26 |  3.5 | 26  |
-| 2-1  |    4.606 | 26 |  10 | 26  |
-| 2-2  | 11.654 | 26 |  10 | 26  |
-| 2-3  |  37.638 | 26 |  7.6 | 26  |
-| 3-1  |  23.622 | 26 |  7.5 | 26  |
-| 3-2  |  8.622 |26 |  10 | 26  |
-| 3-3  |  11.85 | 26 |  12 |  26 |
+| 1-1  | 18.976 | 26  |  0.65 | 26  |
+| 1-2  |  33.307 | 26 |  0.65 | 26  |
+| 1-3  | 30.039 |26 |  0.65 | 26  |
+| 2-1  |    4.606 | 26 |  0.6 | 26  |
+| 2-2  | 11.654 | 26 |  0.6 | 26  |
+| 2-3  |  37.638 | 26 |  0.6 | 26  |
+| 3-1  |  23.622 | 26 |  7 | 26  |
+| 3-2  |  8.622 |26 |  0.6 | 26  |
+| 3-3  |  11.85 | 26 |  13.2 |  26 |
+| 4-1  |  11.85 | 26 |  16 |  26 |
+| 4-2  |  11.85 | 26 |  16 |  26 |
+| 4-3  |  11.85 | 26 |  16 |  26 |
 
-![image](https://user-images.githubusercontent.com/104523603/200466317-aab59af5-2076-44bc-9e38-b173aed3919f.png)
+![image](https://user-images.githubusercontent.com/104523603/200982051-b92cbcc4-16ce-4687-b461-a7d30f94b8a3.png)
+![image](https://user-images.githubusercontent.com/104523603/200982316-f39c2681-2868-437d-a86a-add4aa267183.png)
+![image](https://user-images.githubusercontent.com/104523603/200982635-14477ab6-9f0b-4cf4-88f5-c317d6b39c9d.png)
+
+
+
 
 ### Analysis & Recommended Improvements
 Since the error ranges from 4.6" to 37.6" it does not meet our 1" goal for the error range, ways to mitigate this would be to have a second IMU to prevent incorrect data from being used, have the probe be tested using a machine so that the tests are repeatable so we could check for inconsistencies easier, or to run the IMU data through a filter before calculating the error. and corresponding to the fact that there will always be some error with just an IMU this could be mitigated in the future by connecting a GPS or other secondary sensor or unit, as with IMUs it is difficult to measure a decline in a path. The IMU and machine fixes will be able it be used with the updated probe design
