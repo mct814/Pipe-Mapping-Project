@@ -85,8 +85,5 @@ The fourth experiment focused on verifying that the device's battery life was wi
 | 2 | 20 minutes | 5.03 | 4.98 | 15-18 |
 | 3 | 20 minutes | 4.98 | 4.92 | 15-18 |
 
- Given the initial specification of 20 minutes minimum run time, this experiment verifies that the device comfortably meets our requirements. It should be noted that due to the dropout voltage of the 3.3V LDO, the device will only remain powered until the total battery voltage reaches around 3.67V (as calculated in the Power Subsystem Signoff). However, even though the device will only be functional until the battery voltage approaches this threshold, it is clear that the device exceeds our minimum run time requirement. Given the load current in the table above, and the manufacturer discharge curve for the batteries used in this experiment shown below (Duracell Coppertop AA's), we can estimate the battery life of the device to be around 50-100 hours when using these batteries.
+ Given the initial specification of 20 minutes minimum run time, this experiment verifies that the device comfortably meets our requirements. It should be noted that due to the dropout voltage of the 3.3V LDO, the device will only remain powered until the total battery voltage reaches around 3.67V (as calculated in the Power Subsystem Signoff). However, even though the device will only be functional until the battery voltage approaches this threshold, it is clear that the device exceeds our minimum run time requirement. Given the load current in the table above, and the manufacturer discharge curve for the batteries used in this experiment (Duracell Coppertop AA's), we can estimate the battery life of the device to be around 50-100 hours when using these batteries.
  
-![image](https://user-images.githubusercontent.com/104386626/200984283-4bcc3110-0184-46d8-bb12-8822c4c99d47.png)
-
-Battery Discharge Curve (device will function until the voltage of each battery reaches around 1.22V)
