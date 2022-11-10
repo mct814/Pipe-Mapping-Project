@@ -29,6 +29,7 @@ One problem that we encountered with this system is that while the battery shell
 ## Experiment 2
 Our second experiment was designed to test the accuracy of the probe and to see if the data gained produces a plot. The constraint we are measuring is whether or not our probe maps the path of the pipe within a 1" radius of the actual pipe's edge, and our mapping software produces a plot of the pipe path using the gathered data. We found that with our first iteration of the probe we could not get it to fit inside the 2" pipe (discussed further in the analysis & recommended improvements seciton below) so we decided to run the probe directly over four separate paths mapped out by duct tape, path one is a straight line, path two is a flat right angle with two equal legs, path 3 is a straight flat path that then leads up the wall to produce another right angle, and the fourth path was a straight line where we turned the probe repeatedly. The mapping software had to be adjusted with each new run, as we were feeding raw data to the software, so the threshold, sample rate and FPS had to be recorded each run. The total error was calculated by using the total physical measurements vs. the simulated measurements, and since the plot is made using dead reckoning there will be error with only IMU data. There is additional data as it is difficult with how many wires are connected to the current probe to keep the probe from tipping or turning where additional error is added, this is why the error is so high it was difficult to keep the probe from moving even with us attempting to hold it on a box and try to hold the wires steady with tape. we ran the data through the software without the gyroscope data being plotted alongside the accelerometer data and the error percentages were much smaller. The results of our experimentation are recorded below.
 
+### Mapping Table Using Gyroscope and Accelerometer Data
 | Network Number & Run Number  | Probe Total Error (%)  | Sample Rate (Hz) | Threshold  | FPS (frames per second)  |
 | ------------ | ------------ | ------------ | ------------ | ------------ |
 | 1-1  | 99.35 | 26  |  0.65 | 26  |
@@ -44,8 +45,9 @@ Our second experiment was designed to test the accuracy of the probe and to see 
 | 4-2  |  51.5 | 26 |  16 |  26 |
 | 4-3  |  583.07 | 26 |  16 |  26 |
 
+### Mapping Table Using Only Gyroscope Data
 | Network Number & Run Number |Probe Total Error Without Gyro(%) |
-| ---------------- | ------------- |-----------|
+| ---------------- | ------------- |
 | 1-1  | 34.47  |
 | 1-2  | 44.3  |
 | 1-3  | 1.18  |
