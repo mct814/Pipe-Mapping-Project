@@ -27,38 +27,41 @@ The first experimentation we did was on the mechanical subsystem which includes 
 One problem that we encountered with this system is that while the battery shell easily traversed the network, the PCB shell often got stuck in the 2" 90 degree elbows due to a small lip that was not forseen in our initial design. Our next step is to redesign the PCB shell to have a more gradual edge rather than being very nearly a perfect cylinder. It is likely that both the battery shell and PCB shell would fit in a larger diameter PVC system but our cost for testing would have had to be much higher to confirm that theory. What this experiment verified was that our mechanical subsystem pulls at or above our minimum velocity (1 ft/sec) and pulls consistently with very little deviation so as to minimize the error during data collection. While we did not have a specific number constraining our velocity deviation we found that the deviation was always less than 0.1 ft/sec in each of our five tests which means if we run our probe around 1 ft/sec then we will never exceed our maximum velocity of 2 ft/sec which was calculated based on our sampling rate. Therefore this system successfully remained within the constraints while meeting specifications.
 
 ## Experiment 2
-Our second experiment was designed to test the accuracy of the probe and to see if the data gained produces a plot. The constraint we are measuring is whether or not our probe maps the path of the pipe within a 1" radius of the actual pipe's edge, and our mapping software produces a plot of the pipe path using the gathered data. We found that with our first iteration of the probe we could not get it to fit inside the 2" pipe (discussed further in the analysis & recommended improvements section below) so we decided to run the probe directly over four separate paths mapped out by duct tape, path one is a straight line, path two is a flat right angle, path 3 is a straight flat path that then leads up the wall to produce another right angle, and the fourth path was a straight line where we twisted the probe 3 times each run. The mapping software had to be adjusted with each new run, as we were feeding raw data to the software, so the threshold, sample rate and FPS had to be recorded each run. The total error was calculated by using the physical measurements of the tape vs. the simulated measurements, and since the plot is made using dead reckoning there will be error with only IMU data. There is additional data as it is difficult with how many wires are connected to the current probe to keep the probe from tipping or turning where additional error is added, this is why the error is so high it was difficult to keep the probe from moving even with us attempting to hold it on a box and try to hold the wires steady with tape. we ran the data through the software without the gyroscope data being plotted alongside the accelerometer data and the error percentages were much smaller. The results of our experimentation are recorded below.
+The second experiment was designed to test the accuracy of the probe and to see if the data measured produced data within our specifications. Our constraints define a successful plot to be within a 1" radius of the measured pipes edge. For this iteration of the experiment it was not possible to measure the probes location from inside of a 2" pipe. Instead, the probe was run over four separate paths defined by duct tape on the floor and walls. For each of the experiments it is assumed that the start location of the probe is (0, 0, 0) on a 3D axis defined as (x, y, z) and the probe is facing the positive y direction.
 
-### Mapping Table Using Gyroscope and Accelerometer Data
-| Network Number & Run Number  | Probe Total Error (%)  | Sample Rate (Hz) | Threshold  | FPS (frames per second)  |
-| ------------ | ------------ | ------------ | ------------ | ------------ |
-| 1-1  | 99.35 | 26  |  0.65 | 26  |
-| 1-2  |  98.24 | 26 |  0.65 | 26  |
-| 1-3  | 99.85 |26 |  0.65 | 26  |
-| 2-1  |    97.43 | 26 |  0.6 | 26  |
-| 2-2  | 98.43 | 26 |  0.6 | 26  |
-| 2-3  |  92.378 | 26 |  0.6 | 26  |
-| 3-1  |  79.72 | 26 |  7 | 26  |
-| 3-2  |  78.24 |26 |  0.6 | 26  |
-| 3-3  |  99.54 | 26 |  13.2 |  26 |
-| 4-1  |  531 | 26 |  16 |  26 |
-| 4-2  |  51.5 | 26 |  16 |  26 |
-| 4-3  |  583.07 | 26 |  16 |  26 |
+Each tape line is plotted as the blue line on the graphs, however, a text description is included here as well. The first run consisted of a straight line exactly 6.14 meters long. The second run consisted of a straight line for 3.35 meters, a right turn, and another straight line for 3 meters. The third run consisted of a straight line for 2 meters, a turn upward, and a straight line for 4.14 meters. The fourth run consisted of a straight line exactly 2 meters in length.
 
-### Mapping Table Using Only Gyroscope Data
-| Network Number & Run Number |Probe Total Error Without Gyro(%) |
-| ---------------- | ------------- |
-| 1-1  | 34.47  |
-| 1-2  | 44.3  |
-| 1-3  | 1.18  |
+The graph below shows the network number and run number for each experiment, the sample rate the data was captured at, the threshold value set in the software, and the final point of the measured data minus the final point of the baseline. The threshold value is set in the software and defines the maximum value an acceleration should have. So anything below that value would be discarded. The difference of the final points is represented as (x, y, z) with each value being the distance between the two points on their respective axis. 
 
+### Mapping Table Using Gyroscope, Accelerometer, and Timestamp Data
+| Network Number & Run Number | Sample Rate (Hz) | Threshold | Measured vs Baseline Endpoint Difference |
+| - | - | - | - |
+| 1 - 1 | 26 Hz | 0.1 | (-13.2, 0.02, 2.32) meters |
+| 1 - 2 | 26 Hz | 0.1 | (-11.1, 1.08, 1.02) meters |
+| 1 - 3 | 26 Hz | 0.1 | (-11.7, -4.96, 2.22) meters |
+| 2 - 1 | 26 Hz | 0.1 | (-5.94, 0.15, 2.72) meters |
+| 2 - 2 | 26 Hz | 0.1 | (-19.3, 21.0, 8.72) meters |
+| 2 - 3 | 26 Hz | 0.1 | (-19.6, 4.36, 4.76) meters |
+| 3 - 1 | 26 Hz | 0.1 | (-99.1, -7.70, -50.3) meters |
+| 3 - 2 | 26 Hz | 0.1 | (-12.7, -2.67, -2.18) meters |
+| 3 - 3 | 26 Hz | 0.1 | (-29.4, 2.14, -29.8) meters |
+| 4 - 1 | 26 Hz | 0.1 | (-87.9, -199.4, -612.3) meters |
+| 4 - 2 | 26 Hz | 0.1 | (-24.4, -73.1, -214.1) meters |
+| 4 - 3 | 26 Hz | 0.1 | (-18.3, -108.4, -183.8) meters|
 
-![image](https://user-images.githubusercontent.com/104523603/200982051-b92cbcc4-16ce-4687-b461-a7d30f94b8a3.png)
-![image](https://user-images.githubusercontent.com/104523603/200993689-86fcf534-772f-4508-817a-bdd16613aede.png)
-![image](https://user-images.githubusercontent.com/104523603/200993395-b38f6043-0755-43f0-99af-31c03d5f6f59.png)
+It is difficult to represent the deviation throughout the path without having tables full of thousands of data points from the sampling so the graphs below show the baseline (blue) and the measured line (green). The endpoints have been measured to give some metric of how far off the final values are but the intermediate values need to be evaluated graphically. Note in some of the graphed simulations the blue line is difficult to see but it is there.
+
+![image](/projectDocumentation/modelingsubsystem/Pipe1_Runs.png)
+![image](/projectDocumentation/modelingsubsystem/Pipe2_Runs.png)
+![image](/projectDocumentation/modelingsubsystem/Pipe3_Runs.png)
+![image](/projectDocumentation/modelingsubsystem/Pipe4_Runs.png)
 
 ### Analysis & Recommended Improvements
-Since the error ranges from 583%-78% it does not meet our 1" goal for the error range, ways to mitigate this would be to have a second IMU to prevent incorrect data from being used, have the probe be tested using a machine so that the tests are repeatable so we could check for inconsistencies easier, run the IMU data through a filter before calculating the error, and having a setup where the gyro is more stable. The IMU error could be mitigated in the future by connecting a GPS or other secondary sensor or unit, as with IMUs it is difficult to measure a decline/incline in a path, and a steadier holder for the probe would lessen the gyroscope error when traveling a level straight line. The IMU and machine fixes will be able to be used with the updated probe design.
+Our design has a high amount of variability in the final measurements from endpoints and does not always follow the baseline path shown in the graphs. Even though our simulations show results with a large amount of error, this was to be expected. There have been examples shown with the software solution we are using, and with every example there seems to be a fairly large amount of error, as with other software solutions as well. 
+
+The math behind this method of calculating velocity and position is not perfect and can accrue a large amount of error for long durations. Our solution was originally planned to mitigate this. However, as we faced many difficulties during implementation, we had to forego components and methods that were going to assist in reducing this error. Due to this we do not meet our 1" goal for the error range, however, we do have ideas on ways to mitigate this error and design a better system.
+
+Firstly, having the second IMU to check measurements and give better filtering data would be extremely helpful and is already implemented in the redesign. Secondly, having the probe fit inside the casing, and thus the pipe, would hopefully give the sensors a more stable and constant environment to record data in. We could mitigate a lot of sudden movements, accidental offsets, and we could keep the acceleration much more constant. Finally, having secondary systems, like a GPS or magnometer, would help tremendously since IMUs have difficulty measuring the incline/decline in a path and are sensitive to sudden changes in motion.
 
 ## Experiment 3
 The third experiment was designed to test the capabilities of the memory subsystem. We used this experiment to validate that the memory would be able to hold up to 5000 feet or 20 minutes worth of data, and to keep the data when the device was powered off and on. The experiment consisted of running the device for various time lengths, measuring the amount of data that was stored in the memory, verifying that the memory had not overflowed, and verifying that the data was still intact and unmodified.
