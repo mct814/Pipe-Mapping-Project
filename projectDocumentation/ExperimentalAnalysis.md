@@ -69,6 +69,13 @@ Secondly, the current IMU has no way to implement zero angular velocity update, 
 
 The fourth cause of error, is due to the software using dead reckoning to map the data points. Dead reckoning is at its base an estimation to be able to map a path using the data points, this error will always exist in our program. Dead reckoning uses the position measured and velocity to plot your position.
 
+Dead reckoning (originally called deduced reckoning) will always introduce slight error into the system, one reason is due to the fact that to get the velocity needed for the position calculation, you must integrate the acceleration which adds an unknown C constant. Then to get a position from that velocity it must be integrated again which changes the equation to end in Cx+D where C and D are unknowns. This C and D introduce error, as the number of integrations increases over time to gain the needed positions the error will grow. 
+
+There are two ways to mitigate this error, one is to zero out the error every so often when the software is run and the second is to have a secondary unit such as a GPS, LIDAR, or external sensor to gain the true location so that the error can be calculated out.
+
+Unfortunately, as we are only using data from 6-axis IMUs dead reckoning is the only calculation that was feasible, as our group is only using an accelerometer and gyroscope to gather data. Another fix would be to get a higher quality IMU where it has a secondary unit included. Our code does have error mitigators already added, so to properly lowered the error to near zero we would need to utilize a secondary sensor. 
+
+
 The error in our experiments is visible in the graphs, however, barring a few of our results the graphs follow the general shape of the baseline, even though it is difficult to see. Our fourth pipe experiment shows how much the gyroscope is affecting our errors in our runs. Since this run was conducted while spinning the probe the most likely cause of this incredible error was the spinning itself. This leads us to believe that when we perform an experiment in the pipe we need to minimize the roll of the device as much as possible.
 
 The math behind this method of calculating velocity and position is not perfect and can accrue a large amount of error for long durations. Our solution was originally planned to mitigate this. However, as we faced many difficulties during implementation, we had to forego components and methods that were going to assist in reducing this error. Due to this we do not meet our 1" goal for the error range, however, we do have ideas on ways to mitigate this error and design a better system.
