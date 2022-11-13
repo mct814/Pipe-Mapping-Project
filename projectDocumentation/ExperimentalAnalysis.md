@@ -57,7 +57,9 @@ It is difficult to represent the deviation throughout the path without having ta
 ![image](/projectDocumentation/modelingsubsystem/Pipe4_Runs.png)
 
 ### Mapped Pipe 1 Without Gyroscope
-Another experiment was attempted where we took the straight pipe system and tried to map the data without the gyroscope. Below is an image of the results. We performed this experiment to attempt to narrow down the error to something more visible. However, since the data processing algorithm is highly dependent on both sets of data being present, the results came out as such. The algorithm uses the gyroscope data, with a little bit of alteration, to feed the information back into the next iteration of the algorithm in an attempt to remove drift from the dead reckoning. Due to this result lacking the gyroscope information, there is some drift seen here. 
+Another experiment was attempted where we took the straight pipe system and tried to map the data without the gyroscope. Below is an image of the results. We performed this experiment to attempt to narrow down the error to something more visible. However, since the data processing algorithm is highly dependent on both sets of data being present, the results came out as such. The algorithm uses the gyroscope data not only to correctly interpret the acceleration data but, with a little bit of alteration, to feed the information back into the next iteration of the algorithm in an attempt to remove drift from the dead reckoning. Due to this result lacking the gyroscope information, there is some drift seen here.
+
+In the graphs below the blue dots represent data points of the measured pipe, the orange dots represent the baseline pipe system.
 
 ![image](/projectDocumentation/modelingsubsystem/Pipe1_NoGyro.png)
 
