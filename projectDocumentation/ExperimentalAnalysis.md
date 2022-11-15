@@ -39,15 +39,15 @@ The graph below shows the network number and run number for each experiment, the
 
 | Network Number & Run Number | Sample Rate (Hz) | Threshold | Measured vs Baseline Endpoint Difference |
 | - | - | - | - |
-| 1 - 1 | 26 Hz | 0.1 | (13.2, 0.02, 2.32) meters |
-| 1 - 2 | 26 Hz | 0.1 | (11.1, 1.08, 1.02) meters |
-| 1 - 3 | 26 Hz | 0.1 | (11.7, 4.96, 2.22) meters |
-| 2 - 1 | 26 Hz | 0.1 | (5.94, 0.15, 2.72) meters |
-| 2 - 2 | 26 Hz | 0.1 | (19.3, 21.0, 8.72) meters |
-| 2 - 3 | 26 Hz | 0.1 | (19.6, 4.36, 4.76) meters |
-| 3 - 1 | 26 Hz | 0.1 | (99.1, 7.70, 50.3) meters |
-| 3 - 2 | 26 Hz | 0.1 | (12.7, 2.67, 2.18) meters |
-| 3 - 3 | 26 Hz | 0.1 | (29.4, 2.14, 29.8) meters |
+| 1 - 1 | 26 Hz | 0.1 | (7.05, 6.16, 2.32) meters |
+| 1 - 2 | 26 Hz | 0.1 | (4.98, 7.22, 1.02) meters |
+| 1 - 3 | 26 Hz | 0.1 | (5.54, 1.18, 2.22) meters |
+| 2 - 1 | 26 Hz | 0.1 | (0.41, 0.50, 2.72) meters |
+| 2 - 2 | 26 Hz | 0.1 | (13.0, 21.4, 8.72) meters |
+| 2 - 3 | 26 Hz | 0.1 | (13.3, 4.71, 4.76) meters |
+| 3 - 1 | 26 Hz | 0.1 | (97.1, 5.70, 50.3) meters |
+| 3 - 2 | 26 Hz | 0.1 | (10.7, 0.67, 2.18) meters |
+| 3 - 3 | 26 Hz | 0.1 | (27.4, 4.14, 29.8) meters |
 | 4 - 1 | 26 Hz | 0.1 | (87.9, 199.4, 612.3) meters |
 | 4 - 2 | 26 Hz | 0.1 | (24.4, 73.1, 214.1) meters |
 | 4 - 3 | 26 Hz | 0.1 | (18.3, 108.4, 183.8) meters|
@@ -67,11 +67,11 @@ Below are graphs and table entries of Pipe 1 and Pipe 2 with the gyroscope data 
 
 | Network Number & Run Number | Sample Rate (Hz) | Threshold | Measured vs Baseline Endpoint Difference |
 | - | - | - | - |
-| 1 - 1 | 26 Hz | 0.1 | (0.34, 8.57, 2.30) meters |
-| 1 - 2 | 26 Hz | 0.1 | (0.22, 7.51, 1.16) meters |
-| 1 - 3 | 26 Hz | 0.1 | (0.17, 9.23, 2.26) meters |
-| 2 - 1 | 26 Hz | 0.1 | (0.94, 5.38, 2.65) meters |
-| 2 - 2 | 26 Hz | 0.1 | (9.48, 8.07, 1.70) meters |
+| 1 - 1 | 26 Hz | 0.1 | (5.80, 2.44, 2.30) meters |
+| 1 - 2 | 26 Hz | 0.1 | (5.92, 1.38, 1.16) meters |
+| 1 - 3 | 26 Hz | 0.1 | (5.96, 3.09, 2.26) meters |
+| 2 - 1 | 26 Hz | 0.1 | (4.28, 2.24, 2.64) meters |
+| 2 - 2 | 26 Hz | 0.1 | (6.15, 1.07, 1.70) meters |
 | 2 - 3 | 26 Hz | 0.1 | (2.76, 4.54, 4.93) meters |
 
 ![image](/projectDocumentation/modelingsubsystem/It2_Pipe1_Runs.png)
