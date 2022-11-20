@@ -115,7 +115,49 @@ If you increase the sampling rate, you increase the amount of data obtained in t
 
 These results show that the increased sampling rate helped with more accurate turns. However, it still wasn't fast enough to show any increased accuracy in the measurements. As stated above, changing the sampling rate provides a tradeoff. The team feels as if 52 Hz was the last possible rating for the IMU that would give decently accurate data without adding large holes in the sampling.
 
+### Experiment Iteration 5
+
+The fifth experiment was used to test if the 'free fall' of the IMU would cause errors in the measurements. For this we held the probe 3 feet in the air and dropped it suddenly. Measurements were taken for a short time before and after the fall to measure the baseline of no movement.
+
+| Network Number & Run Number | Sample Rate (Hz) | Threshold | Measured vs Baseline Endpoint Difference |
+| - | - | - | - |
+| 1 - 1 | 52 Hz | 0.1 | (0.022, 0.55, 0.46) meters |
+| 1 - 2 | 52 Hz | 0.25 | (0.009, 0.045, 0.088) meters |
+
+![image](/projectDocumentation/modelingsubsystem/It5_Pipe1_Runs.png)
+
+This experiment showed that even though the drop was not always consistent and correct, it shouldn't be causing any large error in our calculations. The errors seen were predicated as the IMU was not expected to always give accurate results in free fall. We had hoped to have more runs and larger heights, however, concern over damaging the probe caused us to end experimentation fairly quickly.
+
+We performed this experiment to test if our previous assumptions of free fall were true and to test the scale of impact. Previous experiments had no reason to be affected by free fall since none of the were dropped uncontrolled. We are now confident that the current system we have employed will handle downward motion adequately and that the chance of free fall will not cause any large errors.
+
+### Experiment Iteration 6
+
+The sixth experiment was used to test the baseline of no movement. This could be used to see if the IMU had any internal errors or if the software was interpreting still movement incorrectly.
+
+| Network Number & Run Number | Sample Rate (Hz) | Threshold | Measured vs Baseline Endpoint Difference |
+| - | - | - | - |
+| 1 - 1 | 52 Hz | 0.3 | (0.0015, 0.002, 0.0005) meters |
+| 1 - 2 | 52 Hz | 0.3 | (0.0015, 0.002, 0.0001) meters |
+
+![image](/projectDocumentation/modelingsubsystem/It6_Pipe1_Runs.png)
+
+The experiment results show that the still movement gives accurate results and that the error is extremely minimal. It is difficult to see the baseline in the graphs but they are present at (0, 0, 0).
+
+### Experiment Iteration 7
+
+The seventh experiment was used to test if the constant speed of the motors would give better results. The experiment itself had some minor problems that were unavoidable. Firstly, the path was only able to be set up in a short straight line. We were only able to mount the motors to the table so the track could only be the length of the table, 2 meters.
+
+| Network Number & Run Number | Sample Rate (Hz) | Threshold | Measured vs Baseline Endpoint Difference |
+| - | - | - | - |
+| 1 - 1 | 52 Hz | 0.4 | (2.71, 1.45, 1.42) meters |
+| 1 - 2 | 52 Hz | 0.4 | (1.99, 0.99, 0.22) meters |
+
+![image](/projectDocumentation/modelingsubsystem/It7_Pipe1_Runs.png)
+
+The results 
+
 ### Analysis & Recommended Improvements
+
 Our initial experimentation showed large amounts of variability in the final measurements from the endpoints and didn't always follow the baseline path. Error was to be expected initially, but not to this degree. We conducted further experiments to isolate the cause of the error. In these further experiments, the gyroscope was ruled out as a culprit and the speed was brought to light. The later experiments still show error in the recordings but we think we have plausible evidence on what is causing the error.
 
 Firstly, the state of the current drone is causing some of the error, or inability to prevent error, that is difficult to mitigate without redesign. The size and fragility of the current probe keeps it from being tested in its originally designed fashion. The probe cannot fit in the pipe since the wires and extra hardware takes up much more space than would fit inside the pipe. The fragility of the wires also prevents us from testing the system with the mechanical subsystem, as the wires are too delicated to risk such an experiment.
