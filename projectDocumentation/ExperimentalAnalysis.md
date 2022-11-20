@@ -147,6 +147,10 @@ The experiment results show that the still movement gives accurate results and t
 
 The seventh experiment was used to test if the constant speed of the motors would give better results. The experiment itself had some minor problems that were unavoidable. Firstly, the path was only able to be set up in a short straight line. We were only able to mount the motors to the table so the track could only be the length of the table, 2 meters.
 
+Secondly, the probe had to be put on a box that was then pulled to keep the probe, and the wires safe. The extra friction and caused the probe to move differently than it would have through the pipe in the casing. Also the motor spools needed room to be able to spin so the edge of the table was utilized. This also caused the box to need extra stabilization which caused some tilts in the readings.
+
+The experiment was engineered to be the best it could given the circumstances, but it is not perfect.
+
 | Network Number & Run Number | Sample Rate (Hz) | Threshold | Measured vs Baseline Endpoint Difference |
 | - | - | - | - |
 | 1 - 1 | 52 Hz | 0.4 | (2.71, 1.45, 1.42) meters |
@@ -154,7 +158,9 @@ The seventh experiment was used to test if the constant speed of the motors woul
 
 ![image](/projectDocumentation/modelingsubsystem/It7_Pipe1_Runs.png)
 
-The results 
+The results were not what the team was expecting but they still seem promising. Due to the experimentation problems the results were predicted to come out with some error. This level of error was not predicted but is explainable. 
+
+Again, the team feels that if the correct hardware and experimentation parameters were met, the results would be much more accurate. 
 
 ### Analysis & Recommended Improvements
 
