@@ -13,4 +13,4 @@ This project is built with Python with the following dependencies.
 * scipy
 
 ## How to install / run
-Download the gait_tracking.py file, install the dependencies, change the file name in the source code to match the data file, run the program with python.
+Download the gait_tracking.py file, install the dependencies, change the file name in the source code to match the data file, run the program with python. Sometimes the threshold value needs to be changed to fit the data. Any data under the threshold will be considered as "not moving" by the software.
