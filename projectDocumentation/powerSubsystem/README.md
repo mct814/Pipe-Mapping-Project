@@ -1,7 +1,7 @@
 # Power Subsystem
 
 ## Power Subsystem Schematic
-![Power Subsystem Schematic](powerSubsystem_Schematic.png)
+![Power Subsystem Schematic](powerSubsystem_Schematic.PNG)
 
 ## LDOs
 #### Components
