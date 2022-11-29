@@ -1,0 +1,12 @@
+(sym_lib_table
+  (lib (name "OSC_ABS05-32.768KHZ-9-T")(type "KiCad")(uri "D:/Documents/KiCad/Parts/ABS05-32.768KHZ-9-T/ABS05-32.768KHZ-9-T.kicad_sym")(options "")(descr ""))
+  (lib (name "MEM_AT25SL128A-MHE-T")(type "KiCad")(uri "D:/Documents/KiCad/Parts/AT25SL128A-MHE-T/2022-04-25_21-13-25.kicad_sym")(options "")(descr ""))
+  (lib (name "IMU_ISM330DHCXTR")(type "KiCad")(uri "D:/Documents/KiCad/Parts/IMU_ISM330DHCXTR/ISM330DHCXTR.kicad_sym")(options "")(descr ""))
+  (lib (name "MCU_LPC54113J128BD")(type "KiCad")(uri "D:/Documents/KiCad/Parts/MCU_LPC54113J128BD/LPC54113J128BD64QL.kicad_sym")(options "")(descr ""))
+  (lib (name "SWD_485-4048")(type "KiCad")(uri "D:/Documents/KiCad/Parts/SWD_485-4048/SWD_485-4048.kicad_sym")(options "")(descr ""))
+  (lib (name "USB_4085-GF-A_REVA4")(type "KiCad")(uri "D:/Documents/KiCad/Parts/USB4085-GF-A_REVA4/USB4085-GF-A_REVA4.kicad_sym")(options "")(descr ""))
+  (lib (name "NCP730BMT330TBG")(type "KiCad")(uri "D:/Documents/KiCad/Parts/NCP730BMT330TBG/NCP730BMT330TBG.kicad_sym")(options "")(descr ""))
+  (lib (name "NCP163ASN180T1G")(type "KiCad")(uri "D:/Documents/KiCad/Parts/NCP163ASN180T1G/NCP163ASN180T1G.kicad_sym")(options "")(descr ""))
+  (lib (name "DS04-254-1-01BK-SMT")(type "KiCad")(uri "D:/Documents/KiCad/Parts/KAE01SGGT/KAE01SGGT.kicad_sym")(options "")(descr ""))
+  (lib (name "MAX8881EUT33+T")(type "KiCad")(uri "D:/Documents/KiCad/Parts/MAX8881EUT33+T/MAX8881EUT33+T.kicad_sym")(options "")(descr ""))
+)
