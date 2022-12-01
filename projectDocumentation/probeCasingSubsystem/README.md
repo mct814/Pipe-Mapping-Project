@@ -17,6 +17,7 @@ easily fit in any PVC 2" and above which meets our requirement of 2"-4" PVC.
 #### Component
 Custom PCB Case
 * [Design Link](PCB Carrier.SLDPRT)
+
 ![PCB Casing Schematic](PCBCase.PNG)
 
 #### Relevant Specs
@@ -29,12 +30,13 @@ The cap for the casing is easily secured and removed via set screws in the side 
 the PCB. The openings in the casing are for the batteries to be easily wired into the PCB when being set to use. There is also a screw eyelet hole that has been made 
 custom to the one linked above. 
 
-* [PCB Casing](PCBCase.png)
+![PCB Casing](PCBCase.png)
 
 ## Battery Case
 #### Component
 Custom Battery Case
 * [Design Link](Battery Carrier.SLDPRT)
+
 ![Battery Casing Schematic](BatteryCase.PNG)
 
 #### Relevant Specs
