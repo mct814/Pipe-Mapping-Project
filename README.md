@@ -22,10 +22,10 @@ Our main successes came in the form of the mechanical testing system shown in th
 
 
 
-##Testing Video
+## Testing Video
 * [Probe Testing](https://youtube.com/shorts/lbEazcovoQ8?feature=share)
 
-##Project Photos
+## Project Photos
 
 ![Probe Casing]
 ![Microcontroller]
