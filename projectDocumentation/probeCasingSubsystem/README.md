@@ -19,8 +19,6 @@ easily fit in any PVC 2" and above which meets our requirement of 2"-4" PVC.
 Custom PCB Case
 * [Design Link](PCB Carrier.SLDPRT)
 
-![PCB Casing](PCBCase.png)
-
 #### Relevant Specs
 * Custom fit to PCB at 1.727" diameter and 1.476" length
 
@@ -31,14 +29,12 @@ The cap for the casing is easily secured and removed via set screws in the side 
 the PCB. The openings in the casing are for the batteries to be easily wired into the PCB when being set to use. There is also a screw eyelet hole that has been made 
 custom to the one linked above. 
 
-
+![PCB Casing](PCBCase.png)
 
 ## Battery Case
 #### Component
 Custom Battery Case
 * [Design Link](Battery Carrier.SLDPRT)
-
-![Battery Casing](BatteryCase.PNG)
 
 #### Relevant Specs
 * Custom built to fit the battery casings with 1.125" diameter and 2.248" length
@@ -46,4 +42,4 @@ Custom Battery Case
 #### Analysis
 * The battery casing was made in the same fashion as the PCB casing to minimize friction inside the pipe while having a custom interior built for the battery holder linked above which is 2.248"x0.669"x0.539". The interior of the cylinder has a diameter of 0.875" which should easily fit the battery holder and it has an interior length of 2.5" which also fits the length of the battery holder. The cap for this casing will also be easily removable using a set screw in the side of the casing/cap to allow for easy replacement of batteries.
 
-
+![Battery Casing](BatteryCase.PNG)
