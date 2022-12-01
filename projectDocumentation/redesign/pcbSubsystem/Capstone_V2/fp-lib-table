@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name "Memory")(type "KiCad")(uri "/Users/adisonheathcott/Desktop/Capstone_V2/Parts/AT25SL128A-MHE-T/AT25SL128A-MHE-T.pretty")(options "")(descr ""))
+  (lib (name "IMU")(type "KiCad")(uri "/Users/adisonheathcott/Desktop/Capstone_V2/Parts/IMU_ISM330DHCXTR/IMU_ISM330DHCXTR.pretty")(options "")(descr ""))
+  (lib (name "18LDO")(type "KiCad")(uri "/Users/adisonheathcott/Desktop/Capstone_V2/Parts/NCP163ASN180T1G/NCP163ASN180T1G.pretty")(options "")(descr ""))
+  (lib (name "5LDO")(type "KiCad")(uri "/Users/adisonheathcott/Desktop/Capstone_V2/Parts/LD2981ABM50TR/footprints.pretty")(options "")(descr ""))
+)
