@@ -10,7 +10,7 @@ while harmlessly traversing the pipe. The team’s objective is to create a prob
 The current version of our design is still in the testing phase. While we have developed a functional testing system including a probe casing, pulley system and PVC network our current probe cannot fit inside the PVC pipe. The probe is using an arduino nano to pole data points and connect to the laptop which runs the mapping software. This probe can collect data while being powered by a set of 3 AA batteries and transmit said data to the PC. We have designed an improved system that would fit inside the 2" pipe but we have not yet implemented it. Our current mapping software can get data points within a relativiely similar shape to the physical path but still has a large margin of error. Further develpment of the mapping software is required to get within our original specification of 1" margin of error.
 
 
-##Salient Outcomes
+## Salient Outcomes
 Our main successes came in the form of the mechanical testing system shown in the video below and the preliminary maps created during testing.
 * [Mechanical Testing](https://youtube.com/shorts/g99_hG3kM2Y?feature=share)
 
