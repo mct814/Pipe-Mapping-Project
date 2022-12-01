@@ -34,7 +34,7 @@ Our main successes came in the form of the mechanical testing system shown below
 ![image](/projectDocumentation/DetailedImages/IMG_0638.jpeg)
 ![image](/projectDocumentation/DetailedImages/IMG_0642.jpeg)
 ![image](/projectDocumentation/DetailedImages/IMG_0645.jpeg)
-![image](/projectDocumentation/DetailedImages/IMG_0654.jpeg)
+![image](/projectDocumentation/DetailedImages/IMG_0654.JPEG)
 ![image](/projectDocumentation/DetailedImages/IMG_0651.jpeg)
 
 
