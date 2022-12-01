@@ -1,0 +1,6 @@
+# Lessons Learned
+* We ran into a time crunch due to shipping delays. In the future we would definitely prioritize early ordering.
+* If there is a part that is central to the design, such as our NXP microcontroller, either negotiate to order double what is needed, or plan a backup part if the chip/part is defective.
+* When at all possible, avoid using leadless IC's when designing a surface-mount PCB. Without the right equipment, it is incredibly challenging to solder correctly.
+* We found that our leadless SMD components were extremely difficult to solder. In the future we would make sure to get a stencil for reflow soldering the board. 
+* We found that our error was much larger in the mapping than expected and it turned out that we likely need another component e.g Lidar, magnetometer or GPS to decrease this error. In the future we would add more systems to increase mapping accuracy and in general be wary of the accuracy of a single IMU with little filtering. The team determined that using a set of 9-axis IMUs rather than the 6-axis set we used would greatly assist in keeping the gyroscope measurements accurate.
