@@ -1,30 +1,27 @@
 # Pipe-Mapping-Project
 
 ## Executive Summary
-Since the 19th century, the United States has been laying an infrastructure of piping across the nation to supply
-essential resources, such as water and gas, to commercial, government, and residential buildings. In December of 2021,
-the government announced a $2.9 billion infrastructure bill that would replace all residential lead pipes with copper pipes.
-This poses the question of how maintenance crews will find already existing pipe networks at a low cost without the danger of heavy digging equipment.
-
-Methods currently exist for the detection of the aformentioned large industrial
-pipes, but there is a distinct lack of such technology for small, residential PVC
+The problem that we wish to solve is a simple one. Underground PVC piping is often necessary to fix but difficult to locate. Methods currently exist for the detection of large industrial pipes, but there is a distinct lack of such technology for small, residential PVC
 pipes. This project proposes a new way of mapping pipe networks by using a small probe to record positional data
-while harmlessly traversing the pipe. The team’s objective is to create a probe based system to traverse and map variable sized underground pipe networks in 3D space, within an acceptable margin of error. While developing a mechanical pipe traversal method for the probe is part of this project, the primary goal consists of setting up the base technology for 3D mapping and real time information collection inside of 1"-4" PVC pipe.
+while harmlessly traversing the pipe. The team’s objective is to create a probe based system to traverse and map variable sized underground pipe networks in 3D space, within an acceptable margin of error. While developing a mechanical pipe traversal method for the probe is part of this project, the primary goal consists of setting up the base technology for 3D mapping and real time information collection inside of 2"-4" PVC pipe.
 
 
 ## Current Version Capabilities
-The current version of our design is non-functional but is well on its way to becoming functional.
+The current version of our design is still in the testing phase. While we have developed a functional testing system including a probe casing, pulley system and PVC network our current probe cannot fit inside the PVC pipe. The probe is using an arduino nano to pole data points and connect to the laptop which runs the mapping software. This probe can collect data while being powered by a set of 3 AA batteries and transmit said data to the PC. We have designed an improved system that would fit inside the 2" pipe but we have not yet implemented it. Our current mapping software can get data points within a relativiely similar shape to the physical path but still has a large margin of error. Further develpment of the mapping software is required to get within our original specification of 1" margin of error.
 
 
-## Subsystem README Files
+##Salient Outcomes
+Our main successes came in the form of the mechanical testing system shown in the video below and the preliminary maps created during testing.
+* [Mechanical Testing](https://youtube.com/shorts/g99_hG3kM2Y?feature=share)
+![Preliminary Maps](
 
-[Microcontroller README](projectDocumentation/microcontrollerSubsystem/README.md)
+##Testing Video
+* [Probe Testing](https://youtube.com/shorts/lbEazcovoQ8?feature=share)
 
-[IMU README](projectDocumentation/imuSubsystem/README.md)
+##Project Photos
 
-[Memory README](projectDocumentation/memorySubsystem/README.md)
-
-[Mechanical README](projectDocumentation/mechanicalSubsystem/README.md)
+![Probe Casing]
+![Microcontroller]
 
 ## About Us
 
