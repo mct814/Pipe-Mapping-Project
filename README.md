@@ -13,6 +13,7 @@ The current version of our design is still in the testing phase. While we have d
 ##Salient Outcomes
 Our main successes came in the form of the mechanical testing system shown in the video below and the preliminary maps created during testing.
 * [Mechanical Testing](https://youtube.com/shorts/g99_hG3kM2Y?feature=share)
+
 ![Preliminary Maps](
 
 ##Testing Video
