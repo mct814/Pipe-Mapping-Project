@@ -1,5 +1,5 @@
 # Lessons Learned
-* We ran into a time crunch due to shipping delays. In the future we would definitely prioritize early ordering.
+* We ran into a time crunch due to shipping delays. In the future we would definitely prioritize early ordering of parts.
 * If there is a part that is central to the design, such as our NXP microcontroller, either negotiate to order double what is needed, or plan a backup part if the chip/part is defective.
 * When at all possible, avoid using leadless IC's when designing a surface-mount PCB. Without the right equipment, it is incredibly challenging to solder correctly.
 * We found that our leadless SMD components were extremely difficult to solder. In the future we would make sure to get a stencil for reflow soldering the board. 
