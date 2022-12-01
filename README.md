@@ -28,7 +28,13 @@ Our main successes came in the form of the mechanical testing system shown below
 
 ## Project Photos
 
-![image](/projectDocumentation/probeCasingSubsystem/ProbeCasing.png)
+![image](/projectDocumentation/DetailedImages/IMG_0629.png)
+![image](/projectDocumentation/DetailedImages/IMG_0634.png)
+![image](/projectDocumentation/DetailedImages/IMG_0638.png)
+![image](/projectDocumentation/DetailedImages/IMG_6427.png)
+![image](/projectDocumentation/DetailedImages/IMG_0642.png)
+![image](/projectDocumentation/DetailedImages/IMG_0645.png)
+![image](/projectDocumentation/DetailedImages/IMG_0651.png)
 
 
 ## About Us
