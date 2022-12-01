@@ -23,8 +23,7 @@ Our main successes came in the form of the mechanical testing system shown in th
 ![image](/projectDocumentation/modelingsubsystem/It3_Pipe1_Runs.png)
 ![image](/projectDocumentation/modelingsubsystem/It3_Pipe2_Runs.png)
 ![image](/projectDocumentation/modelingsubsystem/It4_Pipe1_Runs.png)
-![image](/projectDocumentation/modelingsubsystem/It5_Pipe1_Runs.png)
-![image](/projectDocumentation/modelingsubsystem/It6_Pipe1_Runs.png)
+
 
 
 
