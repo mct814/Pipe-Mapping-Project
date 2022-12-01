@@ -63,4 +63,4 @@ I am an electrical engineering senior at Tennessee Technological University. I a
 #### Pipe locating services
 
 ## Description of Repository
-The main file of the repository contains the lisence, readme, planned software file, reports folder, and project documentation folder. Inside of the reports folder are the original project proposal and the design phase 1 document. Inside the project documentation folder is the bill of materials, project schematic and the folders for each of the subsystems that have been designed. Each of the subsystem folders contains schematics and readme descriptions of the design process.
+The main file of the repository contains the lisence, readme, planned software file, reports folder, and project documentation folder. Inside of the reports folder are the original project proposal, the design phase 1 document, and the final report. Inside the project documentation folder is the bill of materials, project schematic and the folders for each of the subsystems that have been designed. Each of the subsystem folders contains schematics and readme descriptions of the design process.
