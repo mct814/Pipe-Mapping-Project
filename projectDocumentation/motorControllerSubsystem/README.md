@@ -4,7 +4,7 @@
 The entire recommended system setup (from the user manual) is modeled below with the motor controller, power supply (battery), and laptop connections shown.
 
 ## Motor Controller Schematic
-![Motor Controller](MotorControllerSchematic.png)
+![Motor Controller](motorControllerSchematic.png)
 
 
 ## Motor Controller
