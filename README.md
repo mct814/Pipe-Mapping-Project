@@ -11,9 +11,10 @@ The current version of our design is still in the testing phase. While we have d
 
 
 ## Salient Outcomes
-Our main successes came in the form of the mechanical testing system shown in the video below and the preliminary maps created during testing.
+Our main successes came in the form of the mechanical testing system shown below and the preliminary maps created during testing.
 * [Mechanical Testing](https://youtube.com/shorts/g99_hG3kM2Y?feature=share)
 
+![image](/projectDocumentation/probeCasingSubsystem/ProbeCasing.png)
 ![image](/projectDocumentation/modelingsubsystem/It1_Pipe1_Runs.png)
 ![image](/projectDocumentation/modelingsubsystem/It2_Pipe2_Runs.png)
 ![image](/projectDocumentation/modelingsubsystem/It3_Pipe2_Runs.png)
@@ -27,8 +28,8 @@ Our main successes came in the form of the mechanical testing system shown in th
 
 ## Project Photos
 
-![Probe Casing]
-![Microcontroller]
+![image](/projectDocumentation/probeCasingSubsystem/ProbeCasing.png)
+
 
 ## About Us
 
