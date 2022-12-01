@@ -15,7 +15,6 @@ Our main successes came in the form of the mechanical testing system shown in th
 * [Mechanical Testing](https://youtube.com/shorts/g99_hG3kM2Y?feature=share)
 
 ![image](/projectDocumentation/modelingsubsystem/It1_Pipe1_Runs.png)
-![image](/projectDocumentation/modelingsubsystem/It1_Pipe3_Runs.png)
 ![image](/projectDocumentation/modelingsubsystem/It2_Pipe2_Runs.png)
 ![image](/projectDocumentation/modelingsubsystem/It3_Pipe2_Runs.png)
 ![image](/projectDocumentation/modelingsubsystem/It4_Pipe1_Runs.png)
