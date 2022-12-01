@@ -19,7 +19,7 @@ easily fit in any PVC 2" and above which meets our requirement of 2"-4" PVC.
 Custom PCB Case
 * [Design Link](PCB Carrier.SLDPRT)
 
-![PCB Casing Schematic](PCBCase.PNG)
+![PCB Casing](PCBCase.png)
 
 #### Relevant Specs
 * Custom fit to PCB at 1.727" diameter and 1.476" length
@@ -31,14 +31,14 @@ The cap for the casing is easily secured and removed via set screws in the side 
 the PCB. The openings in the casing are for the batteries to be easily wired into the PCB when being set to use. There is also a screw eyelet hole that has been made 
 custom to the one linked above. 
 
-![PCB Casing](PCBCase.png)
+
 
 ## Battery Case
 #### Component
 Custom Battery Case
 * [Design Link](Battery Carrier.SLDPRT)
 
-![Battery Casing Schematic](BatteryCase.PNG)
+![Battery Casing](BatteryCase.PNG)
 
 #### Relevant Specs
 * Custom built to fit the battery casings with 1.125" diameter and 2.248" length
