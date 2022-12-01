@@ -28,7 +28,13 @@ Our main successes came in the form of the mechanical testing system shown below
 
 ## Project Photos
 
-![image](/projectDocumentation/probeCasingSubsystem/ProbeCasing.png)
+![image](/projectDocumentation/DetailedImages/IMG_6427.PNG)
+![image](/projectDocumentation/DetailedImages/IMG_0629.jpeg)
+![image](/projectDocumentation/DetailedImages/IMG_0634.jpeg)
+![image](/projectDocumentation/DetailedImages/IMG_0638.jpeg)
+![image](/projectDocumentation/DetailedImages/IMG_0642.jpeg)
+![image](/projectDocumentation/DetailedImages/IMG_0645.jpeg)
+![image](/projectDocumentation/DetailedImages/IMG_0651.jpeg)
 
 
 ## About Us
@@ -57,4 +63,4 @@ I am an electrical engineering senior at Tennessee Technological University. I a
 #### Pipe locating services
 
 ## Description of Repository
-The main file of the repository contains the lisence, readme, planned software file, reports folder, and project documentation folder. Inside of the reports folder are the original project proposal and the design phase 1 document. Inside the project documentation folder is the bill of materials, project schematic and the folders for each of the subsystems that have been designed. Each of the subsystem folders contains schematics and readme descriptions of the design process.
+The main file of the repository contains the lisence, readme, planned software file, reports folder, and project documentation folder. Inside of the reports folder are the original project proposal, the design phase 1 document, and the final report. Inside the project documentation folder is the bill of materials, project schematic and the folders for each of the subsystems that have been designed. Each of the subsystem folders contains schematics and readme descriptions of the design process.
