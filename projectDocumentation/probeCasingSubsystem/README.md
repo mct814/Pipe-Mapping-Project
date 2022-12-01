@@ -2,7 +2,7 @@
 
 ## Probe Casing Schematic
 
-![Probe Casing Schematic](ProbeCasing.PNG)
+![Probe Casing](ProbeCasing.PNG)
 
 ## Overall Design
 The probe casing system has been 3D modelled below. The larger cylinder is for the PCB and the smaller cylinders have each been custom designed to fit a battery holder  
