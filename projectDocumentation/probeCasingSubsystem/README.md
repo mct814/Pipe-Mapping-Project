@@ -17,7 +17,7 @@ easily fit in any PVC 2" and above which meets our requirement of 2"-4" PVC.
 ## PCB Casing
 #### Component
 Custom PCB Case
-*[Design Link](PCB Carrier.SLDPRT)
+* [Design Link](PCB Carrier.SLDPRT)
 
 #### Relevant Specs
 * Custom fit to PCB at 1.727" diameter and 1.476" length
