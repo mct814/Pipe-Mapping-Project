@@ -1,7 +1,7 @@
 # Motor Controller Subsystem
 
 ## Motor Controller Schematic
-![Motor Controller Schematic](MotorControllerSchematic.PNG)
+![Motor Controller Schematic](motorControllerSchematic.PNG)
 
 ## Overall Design
 The entire recommended system setup (from the user manual) is modeled below with the motor controller, power supply (battery), and laptop connections shown.
