@@ -28,13 +28,13 @@ Our main successes came in the form of the mechanical testing system shown below
 
 ## Project Photos
 
-![image](/projectDocumentation/DetailedImages/IMG_0629.png)
-![image](/projectDocumentation/DetailedImages/IMG_0634.png)
-![image](/projectDocumentation/DetailedImages/IMG_0638.png)
-![image](/projectDocumentation/DetailedImages/IMG_6427.png)
-![image](/projectDocumentation/DetailedImages/IMG_0642.png)
-![image](/projectDocumentation/DetailedImages/IMG_0645.png)
-![image](/projectDocumentation/DetailedImages/IMG_0651.png)
+![image](/projectDocumentation/DetailedImages/IMG_0629.jpg)
+![image](/projectDocumentation/DetailedImages/IMG_0634.jpg)
+![image](/projectDocumentation/DetailedImages/IMG_0638.jpg)
+![image](/projectDocumentation/DetailedImages/IMG_6427.jpg)
+![image](/projectDocumentation/DetailedImages/IMG_0642.jpg)
+![image](/projectDocumentation/DetailedImages/IMG_0645.jpg)
+![image](/projectDocumentation/DetailedImages/IMG_0651.jpg)
 
 
 ## About Us
